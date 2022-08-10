@@ -15,7 +15,5 @@ export default abstract class Race {
 
   static createdRacesInstances(): number {
     throw new Error('Not implemented');
-    
-    // return Race._orderCount;
   }
 }
